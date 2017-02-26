@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: arenabet99
+  host: arenabet99
+  disk_quota: 1024M
+  services:
+  - arenabet99-AdvancedMobileAccess
+  - arenabet99-imfpush
+  - arenabet99-cloudantNoSQLDB
+  - availability-monitoring-auto
+  - Mobile Quality Assurance-x7
